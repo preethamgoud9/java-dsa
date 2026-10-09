@@ -3,9 +3,8 @@ public class SearchInRotatedArray {
         int[] nums = {7,8,9,1,2,3,4,5,6};
         int target = 2;
         System.out.println(search(nums,target));
-        
-    }
 
+    }
      static int search(int[] nums,int target)  {
         int pivot = FindPeak(nums);
 
