@@ -1,4 +1,6 @@
 public class BubbleSort {
+
+    // we just compare the adjacent element and swap them in process we always get the last element sorted
     public static void main(String[] args) {
         int[] arr = {3,2,1,5,4,8,7,5,4,3,1,0};
         int n = arr.length;

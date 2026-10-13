@@ -1,5 +1,5 @@
 import java.util.Arrays;
-
+// we just find the max element in the array and move it to its place(to the end) and  
 public class SelectionSort {
     public static void main(String[] args) {
         int[] arr = {3,2,1,5,4,8,7,5,4,3,1,0};
