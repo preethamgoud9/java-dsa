@@ -1,17 +1,12 @@
-import java.util.HashSet;
-import java.util.TreeSet;
 class Solution {
     public int removeDuplicates(int[] nums) {
-        int n = nums.length;
-        TreeSet<Integer> unique = new TreeSet<>();
-        for (int i = 0;i < n;i++) {
-            unique.add(nums[i]);
+        int i = 0;
+        for (int j = 1;j< nums.length;j++) {
+            if (nums[i] != nums[j]) {
+                nums[i+1] = nums[j];
+                i++;
+            }
         }
-        int j = 0;
-        for (int num : unique) {
-            nums[j] = num;
-            j++;
-        }  
-           return j;
+        return i+1;
     }
 }
