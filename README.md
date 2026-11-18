@@ -6,12 +6,15 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/preethamgoud9/java-dsa/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0066-plus-one](https://github.com/preethamgoud9/java-dsa/tree/master/0066-plus-one) |
+| [0189-rotate-array](https://github.com/preethamgoud9/java-dsa/tree/master/0189-rotate-array) |
 ## Math
 |  |
 | ------- |
 | [0066-plus-one](https://github.com/preethamgoud9/java-dsa/tree/master/0066-plus-one) |
+| [0189-rotate-array](https://github.com/preethamgoud9/java-dsa/tree/master/0189-rotate-array) |
 ## Two Pointers
 |  |
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/preethamgoud9/java-dsa/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0189-rotate-array](https://github.com/preethamgoud9/java-dsa/tree/master/0189-rotate-array) |
 <!---LeetCode Topics End-->
