@@ -8,8 +8,7 @@ class Solution {
 
             if (ch == '(' || ch == '[' || ch == '{') {
                 stack.push(ch);
-                continue;
-            }
+            } else {
 
             if (stack.isEmpty()) return false;
             
@@ -22,6 +21,7 @@ class Solution {
             if (ch == '}' && topBracket != '{') return false;
 
             stack.pop();
+       }
        }
        return stack.isEmpty();
     }
