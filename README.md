@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/preethamgoud9/java-dsa/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/preethamgoud9/java-dsa/tree/master/0283-move-zeroes) |
 | [0485-max-consecutive-ones](https://github.com/preethamgoud9/java-dsa/tree/master/0485-max-consecutive-ones) |
+| [0643-maximum-average-subarray-i](https://github.com/preethamgoud9/java-dsa/tree/master/0643-maximum-average-subarray-i) |
 ## Math
 |  |
 | ------- |
@@ -43,4 +44,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/preethamgoud9/java-dsa/tree/master/0020-valid-parentheses) |
+## Sliding Window
+|  |
+| ------- |
+| [0643-maximum-average-subarray-i](https://github.com/preethamgoud9/java-dsa/tree/master/0643-maximum-average-subarray-i) |
 <!---LeetCode Topics End-->
