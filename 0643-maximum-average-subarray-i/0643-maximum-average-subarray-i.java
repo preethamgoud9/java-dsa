@@ -4,12 +4,12 @@ class Solution {
         int l =0;
         int r = k - 1;
         double avg = 0;
-        double sum = 0;
+        int sum = 0;
 
         for (int i = 0;i<k;i++) {
             sum = sum + nums[i];
         }
-        avg = sum / k;
+        avg = (double)sum / k;
 
         while(r < n - 1) {
             sum = sum - nums[l];
@@ -17,7 +17,7 @@ class Solution {
             
             r++;
             sum = sum + nums[r];
-            avg = Math.max(avg,sum/k);
+            avg = Math.max(avg,(double)sum/k);
         }
         return avg;
     }
